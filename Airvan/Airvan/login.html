@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body
+
+  style="background-color:#C2E2F9 ;"
+>
+  
+
+  <nav>
+    <div class="logo">AIRVAN</div>
+      <ul class="links">
+  
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="About.html">About</a></li>
+        <li class="link"><a href="contact.html">Contact Us</a></li>
+        <li class="link"><a href="Destinatations.html" >Login</a></li>
+      </ul>
+  
+  </nav>
+  
+
+  <div class="main">
+    <div class="wrapper">
+      <H1>LogIn</H1>
+  
+      <form action="">
+        <div class="input-box">
+          <input type="text" placeholder="Email or Username" required>
+        </div>
+  
+        <div class="input-box">
+          <input type="password" placeholder="Password">
+        </div>
+  
+        <button class="btn1" type="submit">Log in </button>
+  
+        <div class="or">OR</div>
+  
+        <button class="btn2" type="sign-in">Use Sign-In-Code</button>
+  
+       <div class="forget">
+        <a>Forget Password?</a>
+       </div>
+  
+  
+       <div class="remember">
+        <label for=""><input type="checkbox">Remember me</label>
+       </div>
+  
+       <div class="register">
+        <p>New to AIRVAN? <A href="#" target="_blank">Sign up now.</A></p>
+       </div>
+  
+
+
+       <div class="socials">
+          <a href="#"><i class="fa-brands fa-google"></i></a>
+
+       </div>
+      </form>
+
+      <hr>
+
+      <div class="icons">
+       <span><i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAn1JREFUSEvFll1oz1EYxz+LRsu83WxygaSIXLmQJuXCXNokFyhyRUSyxM3ukJfalEutlLU0K5m4cSNlYrUScuO1vCTZGmmLOF+dv87/OOd3zv/nYk/tYr//c57P85znOc/z1DFFUjdFXGoFTwPWAouBBdbpd8BrYAj4mRtILngZcBxoA+ZGjH8BrgGngBcpB1LgBuA0sB9QtDnyAzgHdAKTsQNF4EXATWBlDi2g8xDYAigV/0gMvAK4B8wvCa0cE3SdrYEqUyFwsy0URZySj8Bd4CXwHZgObAWWOwefWviYaywE7gO2p4jGuPT2AaOe7kFzUxe8bxeBA0VgefosA6ooVkeezyFT+V2eDRWZnuD7ync/4svArgywrnPA05Nh/bUDitqXMyYdx0LgeuATMDsDrJt57uj129wWHdXbXhoCbwTuZEClIufGra4cnsg899dh96p3Az2ZBhqBr1Z3luNE6rje9XUpueAOQHnIkbLgw0C3Dz4KnI1QXwFLcjwCrgLbIrpinPfBqmZVdUhqAT8GVkXs7AB6fbDG3f3IgaqKLIhcg+SbmVAzIjprgGEfrHan0aZi8UXd6U9urJx0Jo+q+oT9rtwfiUBlQ73/lw/W/znvUXpliusKsLPilN+5dBUaZykpA1ben8TA+n7LTKfNCXKtYN1kVaXHxqKGwLwCeC3gD4Dme9UUiy0CG8xSd9usPTMj8Fyw2qpa8SPfTtHq0wIMAnMC8BywBs4ms/6MhJxPLXsLbSfS+uJKCnzDrDt7zHj8HEtXClx5cuuBvabBtAJNkef01qbnEvAg9SxywL4N9ew3zvahbiVngtvk/0Sccr7U72UiLgXyD/0GGLB0H1VMfAgAAAAASUVORK5CYII="/></i></span>
+
+       <span><i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAkRJREFUSEvl1snLjlEYx/HPa45kZUhhZaNYGEMWFooMURKxIMPKvOEfsGBjKIVMxcKGhSIpVoYFIaQMKUOGopAhMp1T96un03nu57yvxZvcy/v8zvW9rnOuc36nTRd9bV3E9U+BY7KDMQzf8ATvOrpypRX3wkrMw1T0T0DPcA4ncLEkiRLwTOzDiJKAuIPFuFenbwVeU0Fb6VLGx2ormm5BXcBlOFZYZaPsO+bjTGcqnojL6JGZ/DUEvoVreIsxWFDpfoQlXhT+nWqVcK7i7qGJblQB00p2YBs+J4EHYimelkDj3Bx4eWikI0ngWOV43G1VSel4Dnwac5MAa7G3NGiJLgXHZX6Pfg2TY4cOwM+SgKWaFDwSD5LJZ0Mjzc4EjMmU3libsKsxRgoeh+sJZAtiU6VfR8C7Q5Ib68CjcTshbMCeDDhemx8Kl3Zn0G6uAw/ByyTY0WAEK/6y4q3YXgeOY68q92nX3cTYDDg24rTM/1GZE7CkMpA/8txxOl5dBu2iX4hGcb5wWQ9gdYM2zh+EN60qnp6xtti9kzIdn+Yyo7LHbg0DV0PSU1JhM5O4gsmJ+Eu4m9cF1zmUqbxnZYXRPvsm4wtxshQcr8dL6J2BRHN4iOfog+FVkvFVkn7xaE7IbVGdLcZOPly4rznZ66opX3QUHPWxSfY3MZO6nB6Fi2gO7jcTlbwsZuEghhZWH1dpPT7V6UvAcX587K2qXCv32HsczvSF6oYrss5ScHoEG5+3sdHSh0HLxekMuGXQEsH/B/4N9xBeH8WBoaEAAAAASUVORK5CYII="/></i></span>
+
+       <span><i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAtZJREFUSEvlltmrjlEUxn+HUlyIzGQMZQiZyR8gynjhQsYc51whxYWiRClEUjJkigspQynl2sUxZqaUeSpDUmR27Odrv6d9lr2/732/m3Nh1Vvf+37rWc/ea6/1rF1DC1lNC/FSlLgVMB4YAPSAEv4N8BS4BPzOu5G8xH2BdcBcoFMi+EfgFLAFeFxpAZWI27hdrAfWAvqdx34BW102NrrF/kgByhErlefcMyYPW8TnKjALeB3Dp4j7AQ1A9ypJM5hIJwPPbJwYcUfgMjDIOz/yRaSCymMi+Q4M9s4PgEnApxAcIz4CLAqcpjrgBWA0sA0YBiiYHp2n3ocAWuBqQCmeAlwMYhxwKV9ejniCb4vQp79vlzy7zXx0RGqzzBqB4cD97IPd8XFgvmEYBdwqwgoMBe4ZzEFgWYy4NfAe6BAA3vqVvitI3N4fRc8Ap0LrFSMe688n5FjhBGN3QdLMXWe6z2CVCdVGM8lUz50xjqrkJ1USa7evDHaG14ZmxMq/qi80gcMiKbKGdsAXA2jKYFhctcB+4zgSuF2ELfDtDTw32DXAdpvqOV7kQ9+lwOEqiWcCZw12MXDUEksEmvrMA867gpteJfFp14azDXYccM0S613tZMfeQuBYQXJhSjsL7LNv1dLMtgKy1xVTHfDTi4ZaTHYI2BCpUrseDReNQxFbkxQvyT5a4lBxVgI3fIspC3+A68AO4ISJKj3f7PU8NfFGuIvEnRSxvu8EVnkHTZVuTgJPBheBmIR2AaRyKdsVxCz5xFbX1g8KrTArLgVeAHwD9iSiSyxCiczcbvqZ/DXEpdLSB7jid1vv+1sTppxJ4XTGoUmfJwIvLLDc1UdBtGO1mSryISBR6Jpgl1jo/8zuusVPi5GmUh3GleypSjXgdbX9AHROEEtaNYfVEbowbPJHE3WvdMvMQNqJUj7QTZd5CWL17UtfA3Y4/APJS1zheIv//f8R/wWu0n4fd8acIQAAAABJRU5ErkJggg=="/></i></span>
+      </div>
+
+
+    </div>
+  </div>
+
+
+</body>
+</html>
